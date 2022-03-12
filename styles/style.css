@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: helvetica, arial, sans-serif;
+  font-family: Helvetica Neue, arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -19,9 +19,7 @@
 }
 
 .nav {
-  max-width: auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   z-index: 1;
@@ -35,7 +33,6 @@
 
 .nav__links {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   column-gap: 20px;
@@ -123,15 +120,17 @@
   margin: 24px 0 0;
 }
 
-.card-staff {
+.staff__card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 760px;
   padding-top: 68px;
+  padding-left: 0;
   gap: 40px;
   margin: auto;
+  list-style: none;
 }
 
 .card {
@@ -141,7 +140,6 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  list-style: none;
 }
 
 .card__content {
@@ -213,18 +211,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
-  width: 24px;
-  height: 24px;
 }
 
 .event-info__text {
@@ -460,6 +456,9 @@
 .footer__column-link {
   color: #ffffff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer__column-link:hover {
@@ -469,10 +468,9 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  padding: auto;
+  /* padding-right: 8px; */
 }
 
 .footer__copyright {
-  bottom: 60px;
-  left: 80px;
+  margin-bottom: 60px;
 }
