@@ -120,7 +120,7 @@
   margin: 24px 0 0;
 }
 
-.staff__card {
+.staff__cards {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -468,9 +468,8 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  /* padding-right: 8px; */
 }
 
 .footer__copyright {
-  margin-bottom: 60px;
+  margin-top: 92px;
 }
