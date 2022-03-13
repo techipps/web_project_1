@@ -408,7 +408,6 @@
 }
 
 .footer {
-  box-sizing: border-box;
   background-color: #1f1f1f;
   color: #ffffff;
   min-height: 224px;
@@ -471,5 +470,5 @@
 }
 
 .footer__copyright {
-  margin-top: 92px;
+  margin-top: auto;
 }
